@@ -1,0 +1,65 @@
+body{
+    background-color: #212529;
+}
+a {
+
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+.zoneClick:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.dossier a, .dossier p{
+	color:#f0ad4e;
+}
+.dossier a:hover {
+	color:#f0ad4e;
+}
+
+.fichier {
+	color:#ddd;
+}
+.fichier:hover {
+	color:#ddd;
+}
+
+.close{
+	display: none;
+}
+
+.open {
+	display: block;
+}
+
+#notif-block{
+    position:absolute;
+    top:3.5em;
+    z-index: 9999;
+    width: 100%;
+    text-align: center;
+}
+
+.notif{
+    background: #333 /*rgba(0, 0, 0, 0) url("../images/opacity.png") repeat scroll 0 0*/;
+    bottom: 0;
+    /*box-shadow: 0 1px 5px #999;*/
+    height: auto;/*
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 1em;*/
+    padding: 0/*1.5em 1em 0*/;
+    width: 100%;
+}
+
+.notif-ok{
+    float:right;
+    color:#5cb85c;
+    font-size:2em;
+}
+
