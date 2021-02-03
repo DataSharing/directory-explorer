@@ -1,3 +1,2 @@
-# Dossier app.explorer et index.php à coller à la racine
+# Settings : line 17 to 23 in index.php
 
-![alt tag](https://github.com/DataSharing/directory-explorer/blob/master/screen.png)  
